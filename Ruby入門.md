@@ -128,3 +128,28 @@ end
 
 - 整数： 1, 2, 3, 10 Integer
 - 実数： 3.3, 3.141592 Float
+
+# ****10:【補講】データ型をさらに理解しよう****
+
+データ型の種類
+
+- 数値： 1, 2, 3
+- 文字列： "hello","123"
+
+数値データの種類
+
+- 整数： 1, 2, 3, 10 Integer
+- 実数： 3.3, 3.141592 Float
+
+# ****11:【補講】税込み金額を計算する****
+
+```jsx
+price = 1980
+puts "#{price}円"
+
+discount_price = (price * 0.85).to_i
+puts "割引価格は#{discount_price}円です"
+
+amaunt = (discount_price * 1.08).to_i
+puts "税込金額は#{amaunt}円です"
+```
